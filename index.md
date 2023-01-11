@@ -7,7 +7,7 @@
 * `$ cp` :
 
 Attempts:
-![Image](<img width="1121" alt="截屏2023-01-11 11 59 47" src="https://user-images.githubusercontent.com/122485565/211911966-61ddf9d1-1c91-4c2e-82a0-38cf56a4d785.png">)
+![Image](<img width="1121" alt="截屏2023-01-11 11 59 47" src="https://user-images.githubusercontent.com/122485565/211912617-c5f331a0-1715-474b-97e3-c7d819f35aa6.png">)
 ---
 ## Part2
 ```
