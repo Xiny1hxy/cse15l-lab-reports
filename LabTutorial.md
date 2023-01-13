@@ -4,4 +4,4 @@ To install the Visual Studio Code, please visit the website [link](https://code.
 //If you have any question when downloading VScode, please visit the official download guidance [link](
 
 When you successfully download VScode and open it, the homepage should look like this
-![Image](file:///Users/kristinhu/Desktop/截屏2023-01-11%2011.19.16.png)
+![Image](https://img.coolcou.com/vscode/16096756433791428.png)
