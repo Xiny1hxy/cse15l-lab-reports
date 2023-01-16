@@ -8,9 +8,9 @@ When you successfully download VScode and open it, the homepage should look like
 # Part2: Remotely Connecting
 For CSE15L, your are prefered to use a course specific account that is connected to a remote computer in our institution to do work. Here are the insturctions that con help you to do the remote connection:
 
-1. Follow the "How to Reset your Password" tutorial in your group task document to get yout course-specific account and reset the password.
+**1. Follow the "How to Reset your Password" tutorial in your group task document to get yout course-specific account and reset the password.**
 
-2. Open the terminal in VScode using (Ctrl/Command + `), or open it manually, clicking 'Terminal' in the top menw, and do 'new Ternimal'. Use the following command to connect the server:
+**2. Open the terminal in VScode using (Ctrl/Command + `), or open it manually, clicking 'Terminal' in the top menw, and do 'new Ternimal'. Use the following command to connect the server:**
 ```
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
@@ -22,21 +22,20 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
-(This message should only occur when you are connecting to a new server for the first time)
-Type `yes` to continue the connection to the server. 
+*(This message should only occur when you are connecting to a new server for the first time)
+Type `yes` to continue the connection to the server.)*
 
-3. Your terminal will request for the password, (the new passsword that you just reset for the course-specific account),
+**3. Your terminal will request for the password, (the new passsword that you just reset for the course-specific account)**
 ```
-# On your client
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 Password: 
 ```
-(This is a message from your client)
+*(This is a message from your client)*
 
-Enter the password and you will receive a message like this:
+**Enter the password and you will receive a message like this:**
 ```
 Hello cs15lwi23ake, you are currently logged into ieng6-203.ucsd.edu
 
@@ -51,6 +50,6 @@ ieng6-203   15:10:01   14  0.02,  0.09,  0.12
  
 Mon Jan 16, 2023  3:10pm - Prepping cs15lwi23
 ```
-(This is a message from the remote server)
+*(This is a message from the remote server)*
 
 
