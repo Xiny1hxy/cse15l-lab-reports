@@ -8,5 +8,9 @@ When you successfully download VScode and open it, the homepage should look like
 （It might not be exactly the same as mine, depand on your settings)
 
 # Part2: Remotely Connecting
-1. Open the terminal in VScode using (Ctrl/Command + `), or open it manually, clicking 'Terminal' in the top menw, and do 'new Ternimal'.
-2. 
+For CSE15L, your are prefered to use a course specific account that is connected to a remote computer in our institution to do work. Here are the insturctions that con help you to do the remote connection:
+
+1. Follow the "How to Reset your Password" tutorial in your group task document to get yout course-specific account and reset the password.
+2. Open the terminal in VScode using (Ctrl/Command + `), or open it manually, clicking 'Terminal' in the top menw, and do 'new Ternimal'. Use the following command to connect the server:
+`$ ssh cs15lwi23zz@ieng6.ucsd.edu`
+(Remember to replace `zz` with your own course-specific account. You don't need to type in `$`, we wrote `$` for you the recognize that this is an command)
