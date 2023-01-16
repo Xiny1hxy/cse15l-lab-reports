@@ -51,5 +51,15 @@ ieng6-203   15:10:01   14  0.02,  0.09,  0.12
 Mon Jan 16, 2023  3:10pm - Prepping cs15lwi23
 ```
 *(This is a message from the remote server)*
+**Now your computer is connected to a computer in CSE basement!**
+The command you run will now run on the remote server.
 
+**4. If you want to log out of the remote server in your terminal**, use the commannd:
+```
+$ exist
+``
+or you can simply use (Ctrl + D)
+
+# Part3: Run Some Commands
+Once you succesfully connect to the server, you can try to run some commands!
 
