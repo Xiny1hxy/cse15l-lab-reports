@@ -51,5 +51,25 @@ ieng6-203   15:10:01   14  0.02,  0.09,  0.12
 Mon Jan 16, 2023  3:10pm - Prepping cs15lwi23
 ```
 *(This is a message from the remote server)*
+You are now connected to a computerm in the CSE basement! We call your own computer the client, and the CSE computer the remote server, every command you run in your terminal will now run on the remote server!
 
+**4. If you want to log out to the remote server**, use the command:
+```
+$ exist
+```
+or you can simply use (Ctrl + D)
+
+# Part3: Run Some Command
+Once you successfully connected to the remote server, you can try to run some commands taught in class like `cd`, `pwd`,`ls`,`cp`, on both your client and the remotem server (after using the `ssh` command to connect).
+
+Here are some commands that we recommand you to try:
+* `cd~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* `ls <directory> (`<directory>` is 
+`/home/linux/ieng6/cs15lwi23/cs15lwi23zz` 
+ , where `zz` is other people's uername)
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
