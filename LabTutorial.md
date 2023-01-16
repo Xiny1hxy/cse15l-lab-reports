@@ -67,9 +67,10 @@ Here are some commands that we recommand you to try:
 * `cd`
 * `ls -lat`
 * `ls -a`
-* `ls <directory> (`<directory>` is 
-`/home/linux/ieng6/cs15lwi23/cs15lwi23zz` 
- , where `zz` is other people's uername)
+* `ls <directory>` ( `<directory>` is  `/home/linux/ieng6/cs15lwi23/cs15lwi23zz`  , where `zz` is other people's uername)
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+
+Here are some example when you run the commands:
+
 
