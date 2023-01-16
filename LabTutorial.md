@@ -1,5 +1,5 @@
 # Part1: Installing VScode
-To install the Visual Studio Code, please visit the website [link](https://code.visualstudio.com/), and follow the instructions to download VScode to your computer. (For Mac users, remember to move VScode to your table)
+To install the Visual Studio Code, please visit the website [VScode](https://code.visualstudio.com/), and follow the instructions to download VScode to your computer. (For Mac users, remember to move VScode to your table)
 
 //If you have any question when downloading VScode, please visit the official download guidance [link](
 
@@ -15,4 +15,12 @@ For CSE15L, your are prefered to use a course specific account that is connected
 ```
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
-(Remember to replace `zz` with your own course-specific account. You don't need to type in `$`, we wrote `$` for you the recognize that this is an command)
+(Remember to replace `zz` with your own course-specific account. You don't need to type in `$`, we wrote `$` to help you the recognize that this is an command)
+Your terminal will request for the password, (the new passsword that you just reset for the course-specific account), and your will get a message like this: 
+```
+⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+Type `yes` to allow connection to the new server
