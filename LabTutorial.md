@@ -2,7 +2,7 @@
 To install the Visual Studio Code, please visit the website [VScode](https://code.visualstudio.com/), and follow the instructions to download VScode to your computer. (For Mac users, remember to move VScode to your table)
 
 When you successfully download VScode and open it, the homepage should look like this
-![Image](file:///Users/kristinhu/Desktop/%E6%88%AA%E5%B1%8F2023-01-11%2011.19.16.png)
+![Image](VScode.png)
 （It might not be exactly the same as mine, depand on your settings)
 
 # Part2: Remotely Connecting
