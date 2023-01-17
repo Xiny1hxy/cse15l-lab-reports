@@ -47,6 +47,8 @@ $ exist
 ```
 or you can simply use (Ctrl + D)
 
+Receiving this message means you are successfully log out:
+![Image](logOut.png)
 
 # Part3: Run Some Command
 Once you successfully connected to the remote server, you can try to run some commands taught in class like `cd`, `pwd`,`ls`,`cp`, on both your client and the remotem server (after using the `ssh` command to connect).
@@ -61,5 +63,4 @@ Here are some commands that we recommand you to try:
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
 Here are some example when you run the commands:
-
-
+![Image](commands.png)
