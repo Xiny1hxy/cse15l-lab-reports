@@ -1,7 +1,7 @@
 # Part1: Installing VScode
 To install the Visual Studio Code, please visit the website [VScode](https://code.visualstudio.com/), and follow the instructions to download VScode to your computer. (For Mac users, remember to move VScode to your table)
 
-When you successfully download VScode and open it, the homepage should look like this
+When you successfully download VScode and open it, the homepage should look like this:
 ![Image](VScode.png)
 （It might not be exactly the same as mine, depand on your settings)
 
@@ -35,22 +35,10 @@ Password:
 ```
 *(This is a message from your client)*
 
-**Enter the password and you will receive a message like this:**
-```
-Hello cs15lwi23ake, you are currently logged into ieng6-203.ucsd.edu
-
-You are using 0% CPU on this system
-
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   15:10:01   25  0.06,  0.10,  0.13
-ieng6-202   15:10:01   21  0.08,  0.08,  0.08
-ieng6-203   15:10:01   14  0.02,  0.09,  0.12
-
- 
-Mon Jan 16, 2023  3:10pm - Prepping cs15lwi23
-```
+**Enter the password and your terminal will show a message like this:**
+![Image](remoteServer.png)
 *(This is a message from the remote server)*
+
 You are now connected to a computerm in the CSE basement! We call your own computer the client, and the CSE computer the remote server, every command you run in your terminal will now run on the remote server!
 
 **4. If you want to log out to the remote server**, use the command:
@@ -58,6 +46,7 @@ You are now connected to a computerm in the CSE basement! We call your own compu
 $ exist
 ```
 or you can simply use (Ctrl + D)
+
 
 # Part3: Run Some Command
 Once you successfully connected to the remote server, you can try to run some commands taught in class like `cd`, `pwd`,`ls`,`cp`, on both your client and the remotem server (after using the `ssh` command to connect).
