@@ -60,7 +60,7 @@ Here are some commands that we recommand you to try:
 * `ls -lat` : Use -a flag to list hidden files and directories sorted by time.
 * `ls <directory>` : Show you the directory of the entered server
 ( `<directory>` is  `/home/linux/ieng6/cs15lwi23/cs15lwi23zz`  , where `zz` is other people's uername)
-* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`: Copy the file
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` : Copy the file
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` : Output the content of the file
 
 Here are some example when you run the commands:
