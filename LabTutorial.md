@@ -10,7 +10,7 @@ For CSE15L, your are prefered to use a course specific account that is connected
 
 **1. Follow the [How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) tutorial in your group task document to get yout course-specific account and reset the password.**
 
-**2. Open the terminal in VScode using (Ctrl/Command + `), or open it manually, clicking 'Terminal' in the top menw, and do 'new Ternimal'. Use the following command to connect the server:**
+**2. Open the terminal in VScode using (Ctrl/Command + `), or open it manually, clicking 'Terminal' in the top menu, and do 'new Terminal'. Use the following command to connect the server:**
 ```
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
