@@ -54,13 +54,14 @@ Receiving this message means you are successfully log out:
 Once you successfully connected to the remote server, you can try to run some commands taught in class like `cd`, `pwd`,`ls`,`cp`, on both your client and the remotem server (after using the `ssh` command to connect).
 
 Here are some commands that we recommand you to try:
-* `cd~`
-* `cd`
-* `ls -lat`
-* `ls -a`
-* `ls <directory>` ( `<directory>` is  `/home/linux/ieng6/cs15lwi23/cs15lwi23zz`  , where `zz` is other people's uername)
-* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+* `cd~` : Home directory
+* `cd` : Home directory
+* `ls -a` : Use -a flag to list hidden files and directories.
+* `ls -lat` : Use -a flag to list hidden files and directories sorted by time.
+* `ls <directory>` : Show you the directory of the entered server
+( `<directory>` is  `/home/linux/ieng6/cs15lwi23/cs15lwi23zz`  , where `zz` is other people's uername)
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`: Copy the file
+* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` : Output the content of the file
 
 Here are some example when you run the commands:
 ![Image](commands.png)
