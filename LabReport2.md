@@ -38,5 +38,7 @@ class Handler implements URLHandler {
 }
 ```
 The output for `/add-message` :
+![image](StringServerHello.jpg)
+
 
 ## Part3
