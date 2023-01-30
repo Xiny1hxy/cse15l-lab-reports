@@ -15,6 +15,7 @@ class Handler implements URLHandler {
             if(str == null){
                 return "There is no current string";
             }
+            \\adding new line
             for(String curString: str){
                 output = output + curString + "\n";
             }
@@ -26,6 +27,7 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 str.add(parameters[1]);
+                //adding new line
                 for(String curString: str){
                     output = output + curString + "\n";
                 }
@@ -38,7 +40,6 @@ class Handler implements URLHandler {
 }
 ```
 The output for `/add-message` :
-![image](StringServerHello.jpg)
-
-
+![image](StringServerHello.png)
+The method `handleRequest(URI url)` is being called in this case, more specifically, it is using the else statement to add a string into the server.
 ## Part3
