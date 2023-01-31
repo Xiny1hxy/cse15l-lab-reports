@@ -47,9 +47,10 @@ This build apon the previous ouput, this also uses the else statement since the 
 ## Part2
 Testing `ReverseInPlace()` and `Reverse()`
 ![image](reverseTest.png)
-JUnit gives me the following result (Symptoms):
+JUnit gives me the following results (Symptoms):
 ```
 testReverseInPlace2(): arrays first differed at element [2]; expected:[1] but was:[3]
 testReversed2(): arrays first differed at element [0]; expected:[6] but was:[0]
 ```
 ## Part3
+Firstly, making search engine is the one I found interesting and challenging. Starts from knowing the concepts of "port", "query", etc. to making and visiting the server, modified the values and parameters in the provided code, it is the first time that I know that we can make changes to a web by operating the url. Secondly, checking the symptoms of a JUnit test, I used JUnit test in cse12, so it is not a new thing, but I was able to identify the result and accociate with the concepts like "Symptom", "failure", "bug", etc. And by checking the JUit output to modify the code more 
