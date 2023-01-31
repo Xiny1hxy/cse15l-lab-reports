@@ -40,10 +40,10 @@ class Handler implements URLHandler {
 ```
 2. The output for `/add-message?s=Hello` :
 ![image](StringServerHello.png)
-The method `handleRequest(URI url)` is being called in this case, more specifically, it is using the else statement because the URL contains "/add". We get the query using getQuery() and split from "=" to store the string infront of "=" and after "=" into a string array. To produce a styled output, I made a string variable output, adding each parameters and adding a new line after it.
+The method `handleRequest(URI url)` is being called in this case, more specifically, it is using the else statement because the URL contains "/add". We get the query using getQuery() and split from "=" to store the string infront of "=" and after "=" into a string array, also adding it to the ArrayList. To produce a styled output, I made a string variable output, adding each parameters and adding a new line after it.
 3. The output for `/add-message?s=How are you` :
 ![image](StringServerHowAreYou.png)
-This build apon the previous ouput, this also uses the else statement since the URL contains "/add", using `getQuery()` and `split("=")` to store the string infront of "=" and after "=" into a string array. Assign all the values into output variable using an enhanced for loop, adding a new line after each parameter.
+This build apon the previous ouput, this also uses the else statement since the URL contains "/add", using `getQuery()` and `split("=")` to store the string infront of "=" and after "=" into a string array. Assign all the values int the ArrayList (in this case, contains "Hello", "How are you") into the output variable using an enhanced for loop, adding a new line after each parameter.
 ## Part2
 Testing `ReverseInPlace()` and `Reverse()`
 ![image](reverseTest.png)
