@@ -46,7 +46,7 @@ The method `handleRequest(URI url)` is being called in this case, more specifica
 This build apon the previous ouput, this also uses the else statement since the URL contains "/add", using `getQuery()` and `split("=")` to store the string infront of "=" and after "=" into a string array. Assign all the values into output variable using an enhanced for loop, adding a new line after each parameter.
 ## Part2
 Testing `ReverseInPlace()` and `Reverse()`
-![image](ReverseTest.png)
+![image](reverseTest.png)
 JUnit gives me the following result (Symptoms):
 ```
 testReverseInPlace2(): arrays first differed at element [2]; expected:[1] but was:[3]
