@@ -1,7 +1,6 @@
 # Lab Report 2 - Servers and Bugs
 ## Part1: String Server
-## Part2
-My code for StringServer:
+1. My code for StringServer:
 ```
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
@@ -39,7 +38,10 @@ class Handler implements URLHandler {
     }
 }
 ```
-The output for `/add-message` :
+2. The output for `/add-message?s=Hello` :
 ![image](StringServerHello.png)
-The method `handleRequest(URI url)` is being called in this case, more specifically, it is using the else statement to add a string into the server.
+The method `handleRequest(URI url)` is being called in this case, more specifically, it is using the else statement because the URL contains "/add". We get the query using getQuery() and split from "=" to store the string infront of "=" and after "=" into a string array. To produce a styled output, I made a string variable output, adding each parameters and adding a new line after it.
+3. The output for `/add-message?s=How are you` :
+![image](
+## Part2
 ## Part3
