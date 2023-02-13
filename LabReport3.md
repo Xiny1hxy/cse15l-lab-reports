@@ -430,4 +430,69 @@ travel_guides/berlitz1//WhatToLosAngeles.txt:270:        all year round on the t
 travel_guides/berlitz1//WhatToLosAngeles.txt:277:        performance with Angelenos toting gourmet picnic baskets and fine wine.
 ```
 In this example, I search for "performance" instead. This command can help you to locat the information you want by searching the key word, you can find the original text by looking at the line number that is returned. You can also search in a file instead of a directory by using `grep -n keyword fileName.txt`.
-## Command 4: 
+## Command 4: grep -v
+### Example 1:
+```
+grep -v -l "expensive" travel_guides/berlitz2/*WhatToDo.txt
+```
+Result:
+```
+travel_guides/berlitz2/Algarve-WhatToDo.txt
+travel_guides/berlitz2/Amsterdam-WhatToDo.txt
+travel_guides/berlitz2/Athens-WhatToDo.txt
+travel_guides/berlitz2/Bahamas-WhatToDo.txt
+travel_guides/berlitz2/Bali-WhatToDo.txt
+travel_guides/berlitz2/Barcelona-WhatToDo.txt
+travel_guides/berlitz2/Beijing-WhatToDo.txt
+travel_guides/berlitz2/Berlin-WhatToDo.txt
+travel_guides/berlitz2/Bermuda-WhatToDo.txt
+travel_guides/berlitz2/Budapest-WhatToDo.txt
+travel_guides/berlitz2/California-WhatToDo.txt
+travel_guides/berlitz2/CanaryIslands-WhatToDo.txt
+travel_guides/berlitz2/Cancun-WhatToDo.txt
+travel_guides/berlitz2/China-WhatToDo.txt
+travel_guides/berlitz2/Costa-WhatToDo.txt
+travel_guides/berlitz2/CostaBlanca-WhatToDo.txt
+travel_guides/berlitz2/Crete-WhatToDo.txt
+travel_guides/berlitz2/Cuba-WhatToDo.txt
+travel_guides/berlitz2/Nepal-WhatToDo.txt
+travel_guides/berlitz2/Paris-WhatToDo.txt
+travel_guides/berlitz2/Poland-WhatToDo.txt
+travel_guides/berlitz2/Portugal-WhatToDo.txt
+travel_guides/berlitz2/PuertoRico-WhatToDo.txt
+travel_guides/berlitz2/Vallarta-WhatToDo.txt
+```
+`grep -v` print only lines that do not match the regular expression. In this case, it only returns the files that do not contain "expensive" (including the file content), and by adding `-l`, we only get the name of those files. Here is a trick at the searching path, when you put `*WhatToDo.txt`, the command is only looking for filenames that contain WhatToDo.txt, such as "Vallarta-WhatToDo.txt" and "CostaBlanca-WhatToDo.txt".
+
+### Example 2:
+```
+grep -v -l "cold" travel_guides/berlitz2/*WhereToGo.txt
+```
+Result:
+```
+travel_guides/berlitz2/Algarve-WhereToGo.txt
+travel_guides/berlitz2/Amsterdam-WhereToGo.txt
+travel_guides/berlitz2/Athens-WhereToGo.txt
+travel_guides/berlitz2/Bahamas-WhereToGo.txt
+travel_guides/berlitz2/Bali-WhereToGo.txt
+travel_guides/berlitz2/Barcelona-WhereToGo.txt
+travel_guides/berlitz2/Beijing-WhereToGo.txt
+travel_guides/berlitz2/Berlin-WhereToGo.txt
+travel_guides/berlitz2/Bermuda-WhereToGo.txt
+travel_guides/berlitz2/Boston-WhereToGo.txt
+travel_guides/berlitz2/California-WhereToGo.txt
+travel_guides/berlitz2/Canada-WhereToGo.txt
+travel_guides/berlitz2/CanaryIslands-WhereToGo.txt
+travel_guides/berlitz2/Cancun-WhereToGo.txt
+travel_guides/berlitz2/China-WhereToGo.txt
+travel_guides/berlitz2/Costa-WhereToGo.txt
+travel_guides/berlitz2/Crete-WhereToGo.txt
+travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
+travel_guides/berlitz2/Cuba-WhereToGo.txt
+travel_guides/berlitz2/Nepal-WhereToGo.txt
+travel_guides/berlitz2/Paris-WhereToGo.txt
+travel_guides/berlitz2/Portugal-WhereToGo.txt
+travel_guides/berlitz2/PuertoRico-WhereToGo.txt
+travel_guides/berlitz2/Vallarta-WhereToGo.txt
+```
+In this example, we are searching for the place that is not cold, therefore, we uses `-v` to print the file that do not contain "cold", and use `-l` to list the name of the files. We are specifically looking for "WhereToGo" files, since we are excluding the place that are cold.
