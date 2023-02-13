@@ -1,6 +1,6 @@
 # Lab Report3 - Researching Commands
 ## Command: grep -c
-Example1:
+Example 1:
 ```
 xinyihu@XinyideMacBook-Air docsearch-main % grep -c "vista" written_2/travel_guides/berlitz1/*.txt
 written_2/travel_guides/berlitz1/HandRHawaii.txt:0
@@ -105,13 +105,13 @@ written_2/travel_guides/berlitz1/WhereToMadrid.txt:0
 written_2/travel_guides/berlitz1/WhereToMalaysia.txt:0
 written_2/travel_guides/berlitz1/WhereToMallorca.txt:0
 ```
-This grep -c command return the number of times a keyword appears in txt files, in this case I search for the word "vista", the number at the end of each path is the number it appears in the previous txt file, for example, "vista" occurs 3 times in the file "WhereToJerusalem.txt".
+This `grep -c` command return the number of times a keyword appears in txt files, in this case I search for the word "vista", the number at the end of each path is the number it appears in the previous txt file, for example, "vista" occurs 3 times in the file `WhereToJerusalem.txt`.
 
 ### Example 2:
 ```
 grep -c good travel_guides/berlitz1/*.txt
 ```
-Result:
+Results:
 ```
 travel_guides/berlitz1/HandRHawaii.txt:0
 travel_guides/berlitz1/HandRHongKong.txt:0
@@ -222,7 +222,7 @@ In this example I search for the word "good", it can become a aspect to evaluate
 ```
 grep -r -l vista travel_guides
 ```
-Result:
+Results:
 ```
 travel_guides/berlitz1/IntroDublin.txt
 travel_guides/berlitz1/IntroMadeira.txt
@@ -248,7 +248,7 @@ travel_guides/berlitz2/Vallarta-WhereToGo.txt
 Command `grep -r` will search recursively, examining each file in the provided directory. `grep -l` returns only the names of files containing a valid match. In this case
  `grep -r` recursively search for the key word "vista" and listed the name and the contexts that include "vista". When we add `-l` after it, the terminal only give us the name of the files contain "vista" but not showing the context anymore.
  
-### Example 3:
+### Example 2:
 ```
 grep -r -l delicious travel_guides
 ```
@@ -286,7 +286,7 @@ This command search for the word "delicious" in all the files in travel_guildes,
 ```
 grep -r -n weather travel_guides/berlitz1/
 ```
-Result:
+Results:
 ```
 travel_guides/berlitz1//IntroFrance.txt:67:        shoreline has earned the region a reputation for rough weather. In fact
 travel_guides/berlitz1//IntroFrance.txt:89:        the ravages of time, weather, war, revolution, and urban development.
@@ -345,7 +345,7 @@ In this example, I recursively search through the files in `travel_guides/berlit
 ```
 grep -r -n performance  travel_guides/berlitz1/
 ```
-Result:
+Results:
 ```
 travel_guides/berlitz1//IntroEdinburgh.txt:108:        arts event in the world, with hundreds of performances in numerous
 travel_guides/berlitz1//IntroEdinburgh.txt:117:        performances ranging from the avant-garde to the downright irreverent.
@@ -435,7 +435,7 @@ In this example, I search for "performance" instead. This command can help you t
 ```
 grep -v -l "expensive" travel_guides/berlitz2/*WhatToDo.txt
 ```
-Result:
+Results:
 ```
 travel_guides/berlitz2/Algarve-WhatToDo.txt
 travel_guides/berlitz2/Amsterdam-WhatToDo.txt
@@ -468,7 +468,7 @@ travel_guides/berlitz2/Vallarta-WhatToDo.txt
 ```
 grep -v -l "cold" travel_guides/berlitz2/*WhereToGo.txt
 ```
-Result:
+Results:
 ```
 travel_guides/berlitz2/Algarve-WhereToGo.txt
 travel_guides/berlitz2/Amsterdam-WhereToGo.txt
