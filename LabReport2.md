@@ -63,7 +63,7 @@ This build apon the previous ouput, this also uses the else statement since the 
   }
 ``````
 3. Running JUnit:
-```
+``````
 xinyihu@XinyideMacBook-Air lab3-main % javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java                              
 xinyihu@XinyideMacBook-Air lab3-main % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 JUnit version 4.13.2
@@ -98,7 +98,7 @@ java.lang.AssertionError: expected:<1.0> but was:<0.0>
 
 FAILURES!!!
 Tests run: 6,  Failures: 2
-```
+``````
 4. Before-and-after code
 **Before Code:**
 ``````java
