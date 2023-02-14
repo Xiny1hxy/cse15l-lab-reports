@@ -63,42 +63,7 @@ This build apon the previous ouput, this also uses the else statement since the 
   }
 ``````
 3. Running JUnit:
-``````
-xinyihu@XinyideMacBook-Air lab3-main % javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java                              
-xinyihu@XinyideMacBook-Air lab3-main % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
-JUnit version 4.13.2
-JUnit version 4.13.2
-.E.E....
-Time: 0.003
-There were 2 failures:
-1) testReverseInPlace2(ArrayTests)
-arrays first differed at element [2]; expected:<1> but was:<3>
-        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
-        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
-        at org.junit.Assert.internalArrayEquals(Assert.java:534)
-        at org.junit.Assert.assertArrayEquals(Assert.java:418)
-        at org.junit.Assert.assertArrayEquals(Assert.java:429)
-        at ArrayTests.testReverseInPlace2(ArrayTests.java:23)
-        ... 32 trimmed
-Caused by: java.lang.AssertionError: expected:<1> but was:<3>
-        at org.junit.Assert.fail(Assert.java:89)
-        at org.junit.Assert.failNotEquals(Assert.java:835)
-        at org.junit.Assert.assertEquals(Assert.java:120)
-        at org.junit.Assert.assertEquals(Assert.java:146)
-        at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
-        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
-        ... 38 more
-2) testAverageWithoutLowest(ArrayTests)
-java.lang.AssertionError: expected:<1.0> but was:<0.0>
-        at org.junit.Assert.fail(Assert.java:89)
-        at org.junit.Assert.failNotEquals(Assert.java:835)
-        at org.junit.Assert.assertEquals(Assert.java:555)
-        at org.junit.Assert.assertEquals(Assert.java:685)
-        at ArrayTests.testAverageWithoutLowest(ArrayTests.java:35)
-
-FAILURES!!!
-Tests run: 6,  Failures: 2
-``````
+![image](JUnitFailure.png)
 4. Before-and-after code
 **Before Code:**
 ``````java
