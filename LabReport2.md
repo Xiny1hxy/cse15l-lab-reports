@@ -45,7 +45,7 @@ The method `handleRequest(URI url)` is being called in this case, more specifica
 ![image](StringServerHowAreYou.png)
 This build apon the previous ouput, this also uses the else statement since the URL contains "/add", using `getQuery()` and `split("=")` to store the string infront of "=" and after "=" into a string array. Assign all the values int the ArrayList (in this case, contains "Hello", "How are you") into the output variable using an enhanced for loop, adding a new line after each parameter.
 ## Part2
-1. Failure-inducing input: `ReverseInPlace2()
+1. Failure-inducing input: `ReverseInPlace2()`
 ``````java
   @Test
   public void testReverseInPlace2() {
