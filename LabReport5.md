@@ -114,7 +114,14 @@ xinyihu@XinyideMacBook-Air berlitz1 % find . -name "*.txt" -type f
 ./WhatToLasVegas.txt
 ./WhatToLosAngeles.txt
 ```
-The command search on all the regular files in `berlitz1`. This command might be useful when you try to distinguish file types.
+
+This command searches the `berlitz1` and its subdirectories for all regular files with names that end with ".txt".
+
+This command can be helpful in many situations, such as:
+
+Finding all text files in a directory hierarchy for further processing or analysis
+
+Counting the number of text files in a directory hierarchy
 
 ### Example2:
 
@@ -149,7 +156,15 @@ xinyihu@XinyideMacBook-Air berlitz1 % find . -mtime -7
 ./HandRJerusalem.txt
 ```
 
-This command find all files modified less than 7 days ago. I deleted some words in several files, to see if this command can find out the file i changed. 
+This command find all files modified less than 7 days ago. I deleted some words in several files, to see if this command can find out the file i changed.
+
+This command can be helpful for the situation such as:
+
+Finding all recently modified files in a directory hierarchy for further processing or analysis
+
+Backing up all recently modified files in a directory hierarchy to another location
+
+Deleting all files that have not been modified within a certain time period to free up disk space
 
 ### Example2:
 
@@ -177,6 +192,14 @@ Output:
 
 This command searchese for all the file with ".txt" type and execute `-rm` command which remove those files. Now there are no `.txt` files in my directory.
 
+This command can be useful in the situations such as:
+
+Deleting all files with a specific file extension in a directory hierarchy
+
+Cleaning up a directory hierarchy by removing all files that are no longer needed
+
+Removing files that are causing issues or taking up too much disk space
+
 ### Exmaple2:
 
 Command: `find . -name "*.class" -type f -exec rm {} \;`
@@ -184,10 +207,8 @@ Command: `find . -name "*.class" -type f -exec rm {} \;`
 Output:
 
 Before:
-![image]()
+![image](deleteClassBefore.png)
 After:
-![image]()
+![image](deleteClassAfter.png)
 
-## Command4:
-### Example1:
-### Exmaple2:
+This command searchese for all the file with ".class" type and execute `-rm` command which remove those files. Now there are no `.class` files in my current directory.
