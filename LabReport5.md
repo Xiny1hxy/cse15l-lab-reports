@@ -172,10 +172,21 @@ This command searches for all files with the ".fileType" extension, and then exe
 Command: `find . -name "*.fileType" -type f -exec rm {} \;`
 
 Output:
-![image]()
+
+![image](deleteTxt.png)
+
 This command searchese for all the file with ".txt" type and execute `-rm` command which remove those files. Now there are no `.txt` files in my directory.
+
 ### Exmaple2:
 
+Command: `find . -name "*.class" -type f -exec rm {} \;`
+
+Output:
+
+Before:
+![image]()
+After:
+![image]()
 
 ## Command4:
 ### Example1:
